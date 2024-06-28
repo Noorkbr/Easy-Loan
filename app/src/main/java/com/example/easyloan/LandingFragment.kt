@@ -16,6 +16,10 @@ class LandingFragment : BaseFragment<FragmentLandingBinding>(FragmentLandingBind
         binding.signInButton.setOnClickListener {
             findNavController().navigate(R.id.action_landingFragment_to_loginFragment2)
         }
+        binding.registerButton.setOnClickListener{
+            findNavController().navigate(R.id.action_landingFragment_to_registerFragment)
+
+        }
     }
 
     override fun allObserver() {

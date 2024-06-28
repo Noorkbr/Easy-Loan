@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment2"
+        android:title="@string/home"
+        android:icon="@drawable/bx_home"/>
+    <item
+        android:id="@+id/transactionFragment"
+        android:title="@string/transaction"
+        android:icon="@drawable/uil_transaction"/>
+    <item
+        android:id="@+id/loansFragment"
+        android:title="@string/loans"
+        android:icon="@drawable/gg_chart"/>
+    <item
+        android:id="@+id/accountFragment"
+        android:title="@string/account"
+        android:icon="@drawable/mdi_user"/>
+</menu>

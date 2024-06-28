@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/landingFragment"
         android:name="com.example.easyloan.LandingFragment"
-        android:label="fragment_landing"
+        android:label="Welcome"
         tools:layout="@layout/fragment_landing" >
         <action
             android:id="@+id/action_landingFragment_to_loginFragment2"
@@ -20,11 +20,20 @@
     <fragment
         android:id="@+id/loginFragment2"
         android:name="com.example.easyloan.loginFragment"
-        android:label="fragment_login2"
+        android:label="Login"
         tools:layout="@layout/fragment_login2" />
     <fragment
         android:id="@+id/registerFragment"
         android:name="com.example.easyloan.registerFragment"
-        android:label="fragment_register"
-        tools:layout="@layout/fragment_register" />
+        android:label="Register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_verificationFragment"
+            app:destination="@id/verificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verificationFragment"
+        android:name="com.example.easyloan.VerificationFragment"
+        android:label="Verification"
+        tools:layout="@layout/fragment_verification" />
 </navigation>

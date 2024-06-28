@@ -16,4 +16,16 @@
     <string name="login_failed">"Login failed"</string>
     <string name="phone_number">Phone Number</string>
     <string name="passsword">Passsword</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="sign_up2">Sign Up</string>
+    <string name="address">Address</string>
+    <string name="upload_nid">Upload Nid</string>
+    <string name="upload_nid2">Upload NID</string>
+    <string name="i_agree_to_the_terms_conditions_and_policy"><![CDATA[I agree to the Terms & Conditions and Policy.]]></string>
+    <string name="verify_now">Verify Now</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="loans">Loans</string>
+    <string name="transaction">Transaction</string>
 </resources>

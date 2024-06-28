@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "67836489407",
+    "project_id": "easy-loan-41e5c",
+    "storage_bucket": "easy-loan-41e5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67836489407:android:f7d4ce1c8c43f3cc42600a",
+        "android_client_info": {
+          "package_name": "com.example.easyloan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM7BhkHt_yhAl9Qu8K7xUdrI3Wc7JwHI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

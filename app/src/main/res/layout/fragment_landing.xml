@@ -50,7 +50,8 @@
     app:backgroundTint="#575DFB"
     />
     <Button
-        android:id="@+id/outlinedButton"
+
+        android:id="@+id/registerButton"
         android:layout_width="379dp"
         android:layout_height="56dp"
         android:text="@string/sign_up"
