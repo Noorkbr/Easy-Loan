@@ -5,6 +5,7 @@ plugins {
     id("com.google.gms.google-services")
 }
 
+
 android {
     namespace = "com.example.easyloan"
     compileSdk = 34
@@ -41,6 +42,10 @@ android {
 }
 
 dependencies {
+
+
+
+
     implementation (libs.firebase.database)
     implementation (libs.firebase.storage)
 
@@ -56,6 +61,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.recyclerview)
+    implementation(libs.support.annotations)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

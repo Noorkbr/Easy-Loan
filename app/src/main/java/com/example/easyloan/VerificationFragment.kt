@@ -12,6 +12,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.easyloan.databinding.FragmentVerificationBinding
@@ -22,6 +23,24 @@ import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
 
 class VerificationFragment : BaseFragment<FragmentVerificationBinding>(FragmentVerificationBinding::inflate) {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = super.onCreateView(inflater, container, savedInstanceState)
+
+        // Set up the toolbar
+        val toolbar: androidx.appcompat.widget.Toolbar = binding.toolbar
+        (activity as AppCompatActivity).setSupportActionBar(toolbar)
+        (activity as AppCompatActivity).supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        // Handle back navigation
+        toolbar.setNavigationOnClickListener {
+            activity?.onBackPressed()
+        }
+
+        return view
+    }
 
     /*  private lateinit var uploadButton: Button
     private val imageUris = mutableListOf<Uri>()
